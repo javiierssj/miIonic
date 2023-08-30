@@ -7,7 +7,7 @@
 
   <base href="/" />
 
-  <meta name="color-scheme" content="light dark" />
+  <meta name="color-scheme" content="" />
   <meta name="viewport" content="viewport-fit=cover, width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
   <meta name="format-detection" content="telephone=no" />
   <meta name="msapplication-tap-highlight" content="no" />
@@ -20,7 +20,47 @@
 </head>
 
 <body>
-  <app-root></app-root>
-</body>
+  <ion-card >
+  <ion-card-header>
+    <ion-card-title>BioImplantes</ion-card-title>
+    <ion-card-subtitle>Bienvenidos a la aplicación móvil de BioImplantes</ion-card-subtitle>
+  </ion-card-header>
+
+  <ion-card-content>
+    En esta aplicación podras realizar todo tu proceso de Bodega desde tu equipo móvil.
+    
+  </ion-card-content>
+</ion-card>
+<ion-card>
+  <img alt="BioLogo" src="src/assets/icon/images.jpg" />
+  <ion-card-header>
+    <ion-card-title>Iniciar sesión</ion-card-title>
+    <ion-list>
+  <ion-item>
+    <ion-input labelPlacement="floating" value="@gmail.com">
+      <div slot="label">Correo: <ion-text color="danger">(Obligatorio)</ion-text></div>
+    </ion-input>
+  </ion-item>
+    <ion-item>
+    <ion-input labelPlacement="floating" value="********">
+      <div slot="label">Contraseña: <ion-text color="danger">(Obligatorio)</ion-text></div>
+    </ion-input>
+  </ion-item>
+</ion-list>
+<ion-button shape="round">Login</ion-button>
+    <ion-card-subtitle></ion-card-subtitle>
+  </ion-card-header>
+<ion-card>
+
+  <ion-card-content>
+    ¿Olvidaste tu contraseña?
+  </ion-card-content> 
+  <ion-button fill="clear">Haz click aquí.</ion-button>
+</ion-card>
+  <ion-card-content>
+  </ion-card-content>
+</ion-card>
+
+</body> 
 
 </html>
